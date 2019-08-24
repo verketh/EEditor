@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/config_color_tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_title_bar"
+            android:gravity="center"
+            android:text="@string/color_settings"
+            android:textColor="#FFFFFFFF"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/config_color_tv_back_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/back_selector"
+            android:clickable="true"
+            android:gravity="center"
+            android:textColor="#FFFFFFFF"
+            android:textSize="20sp" />
+    </RelativeLayout>
+    
+	<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:layout_below="@+id/relativeLayout1">
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+        <RelativeLayout
+        android:id="@+id/config_color_cursor_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/groud_bg"
+        android:padding="6dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cursor_color"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/config_color_tv_cursor_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/config_color_class_field_head_bg_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/config_color_cursor_color"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/groud_bg"
+        android:padding="6dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/class_field_head_bg_color"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/config_color_tv_class_field_head_bg_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textSize="20sp" />
+    </RelativeLayout>
+	 <RelativeLayout
+        android:id="@+id/config_color_method_param_head_bg_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/config_color_class_field_head_bg_color"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/groud_bg"
+        android:padding="6dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/method_param_head_bg_color"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/config_color_tv_method_param_head_bg_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textSize="20sp" />
+    </RelativeLayout>
+	<RelativeLayout
+        android:id="@+id/config_color_local_head_bg_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/config_color_method_param_head_bg_color"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/groud_bg"
+        android:padding="6dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/local_head_bg_color"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/config_color_tv_local_head_bg_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textSize="20sp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/config_color_class_name_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/config_color_local_head_bg_color"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/groud_bg"
+        android:padding="6dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/class_name_color"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/config_color_tv_class_name_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textSize="20sp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/config_color_field_name_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/config_color_class_name_color"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/groud_bg"
+        android:padding="6dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/field_name_color"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/config_color_tv_field_name_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textSize="20sp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/config_color_method_name_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/config_color_field_name_color"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/groud_bg"
+        android:padding="6dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/method_name_color"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/config_color_tv_method_name_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textSize="20sp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/config_color_param_name_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/config_color_method_name_color"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/groud_bg"
+        android:padding="6dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/param_name_color"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/config_color_tv_param_name_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textSize="20sp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/config_color_local_name_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/config_color_param_name_color"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/groud_bg"
+        android:padding="6dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/local_name_color"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/config_color_tv_local_name_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textSize="20sp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/config_color_type_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/config_color_local_name_color"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/groud_bg"
+        android:padding="6dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/type_color"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/config_color_tv_type_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textSize="20sp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/config_color_explain_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/config_color_type_color"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/groud_bg"
+        android:padding="6dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/explain_color"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/config_color_tv_explain_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textSize="20sp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/config_color_select_grid_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/config_color_explain_color"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/groud_bg"
+        android:padding="6dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_grid_color"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/config_color_tv_select_grid_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textSize="20sp" />
+    </RelativeLayout>
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

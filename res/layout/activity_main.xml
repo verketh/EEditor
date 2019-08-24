@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <cn.viewphoto.eedit.view.SlideMenu
+        android:id="@+id/slide_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <include layout="@layout/layout_menu" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <include layout="@layout/layout_title_bar" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/title_bar_relativeLayout" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <RelativeLayout
+                        android:id="@+id/main_ad"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_centerInParent="true" >
+                    </RelativeLayout>
+
+                    <cn.viewphoto.eedit.view.EEditText
+                        android:id="@+id/main_eedittext"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" 
+                        android:visibility="gone"/>
+
+                    <ScrollView
+                        android:id="@+id/main_scroll_symbo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/main_eedittext"
+                        android:layout_alignParentBottom="true"
+                        android:visibility="invisible" >
+                    </ScrollView>
+                </RelativeLayout>
+            </FrameLayout>
+        </RelativeLayout>
+    </cn.viewphoto.eedit.view.SlideMenu>
+
+</RelativeLayout>

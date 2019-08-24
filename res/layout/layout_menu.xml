@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="280dp"
+    android:layout_height="fill_parent"
+    android:background="@drawable/menubackgroud"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/menu_file_textView"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textSize="20sp"/>
+
+    <ListView
+        android:id="@+id/menu_file_listView"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+</LinearLayout>

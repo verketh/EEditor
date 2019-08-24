@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#FF000000"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/select_menu_item_delete_row"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/groud_bg"
+        android:textColor="#FFFFFFFF"
+        android:textSize="20sp"
+        android:text="删除行" />
+	<TextView
+        android:id="@+id/select_menu_item_delete_method"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/groud_bg"
+        android:textColor="#FFFFFFFF"
+        android:textSize="20sp"
+        android:text="删除方法" />
+    <TextView
+        android:id="@+id/select_menu_item_delete_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/groud_bg"
+        android:textColor="#FFFFFFFF"
+        android:textSize="20sp"
+        android:text="删除成员" />
+
+    <TextView
+        android:id="@+id/select_menu_item_delete_param"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/groud_bg"
+        android:textColor="#FFFFFFFF"
+        android:textSize="20sp"
+        android:text="删除参数" />
+
+    <TextView
+        android:id="@+id/select_menu_item_delete_local"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/groud_bg"
+        android:textColor="#FFFFFFFF"
+        android:textSize="20sp"
+        android:text="删除变量" />
+
+</LinearLayout>
