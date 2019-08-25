@@ -1,0 +1,260 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\project\\EEditor2\\app\\build\\intermediates\\res\\merged\\debug\\values-v11_values-v11.arsc.flat",
+            "map": [
+                {
+                    "source": "E:\\project\\EEditor2\\app\\src\\main\\res\\values-v11\\styles.xml",
+                    "from": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "182",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "329"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "200"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "E:\\project\\EEditor\\app\\build\\intermediates\\res\\merged\\debug\\values-v14_values-v14.arsc.flat",
+            "map": [
+                {
+                    "source": "E:\\project\\EEditor\\app\\src\\main\\res\\values-v14\\styles.xml",
+                    "from": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "225",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "372"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "200"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "E:\\project\\EEditor\\app\\build\\intermediates\\res\\merged\\debug\\values-v11_values-v11.arsc.flat",
+            "map": [
+                {
+                    "source": "E:\\project\\EEditor\\app\\src\\main\\res\\values-v11\\styles.xml",
+                    "from": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "182",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "329"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "200"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "E:\\project\\EEditor2\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "E:\\project\\EEditor2\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "3,31,34,20,16,30,40,35,29,28,4,33,38,12,11,13,14,15,36,32,6,7,19,37,8,9,41,39,22,23,26,25,24,17",
+                        "startColumns": "4,1,1,4,4,1,1,1,1,1,4,1,1,4,4,4,4,4,1,1,4,4,4,1,4,4,1,1,4,4,1,1,1,4",
+                        "startOffsets": "58,1148,1322,740,591,1105,1604,1369,1065,1025,100,1270,1514,415,366,465,505,546,1417,1208,159,214,695,1466,264,312,1648,1562,791,843,980,939,897,639",
+                        "endColumns": "40,59,46,45,47,42,43,47,39,39,52,51,47,49,48,39,40,44,48,61,54,49,44,47,47,50,47,41,51,56,42,40,41,50",
+                        "endOffsets": "94,1206,1367,781,634,1146,1646,1415,1103,1063,148,1320,1560,460,410,500,541,586,1464,1268,209,259,735,1512,307,358,1694,1602,838,895,1021,978,937,685"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "169,210,273,323,369,417,463,510,561,604,647,700,755,806,856,905,945,986,1031,1083,1148,1203,1253,1298,1349,1397,1448,1499,1544,1596,1653,1699,1743,1788",
+                        "endColumns": "40,62,49,45,47,45,46,50,42,42,52,54,50,49,48,39,40,44,51,64,54,49,44,50,47,50,50,44,51,56,45,43,44,50",
+                        "endOffsets": "205,268,318,364,412,458,505,556,599,642,695,750,801,851,900,940,981,1026,1078,1143,1198,1248,1293,1344,1392,1443,1494,1539,1591,1648,1694,1738,1783,1834"
+                    }
+                },
+                {
+                    "source": "E:\\project\\EEditor2\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "6,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "191,540",
+                        "endLines": "12,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "499,697"
+                    },
+                    "to": {
+                        "startLines": "38,45",
+                        "startColumns": "4,4",
+                        "startOffsets": "1839,2148",
+                        "endLines": "44,47",
+                        "endColumns": "12,12",
+                        "endOffsets": "2143,2303"
+                    }
+                },
+                {
+                    "source": "E:\\project\\EEditor2\\app\\src\\main\\res\\values\\dimens.xml",
+                    "from": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "92,151",
+                        "endColumns": "57,55",
+                        "endOffsets": "145,202"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,113",
+                        "endColumns": "57,55",
+                        "endOffsets": "108,164"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "E:\\project\\EEditor2\\app\\build\\intermediates\\res\\merged\\debug\\values-w820dp-v13_values-w820dp-v13.arsc.flat",
+            "map": [
+                {
+                    "source": "E:\\project\\EEditor2\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "from": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "310",
+                        "endColumns": "57",
+                        "endOffsets": "363"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "57",
+                        "endOffsets": "108"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "E:\\project\\EEditor\\app\\build\\intermediates\\res\\merged\\debug\\values-w820dp-v13_values-w820dp-v13.arsc.flat",
+            "map": [
+                {
+                    "source": "E:\\project\\EEditor\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "from": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "310",
+                        "endColumns": "57",
+                        "endOffsets": "363"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "57",
+                        "endOffsets": "108"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "E:\\project\\EEditor\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "E:\\project\\EEditor\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "6,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "191,540",
+                        "endLines": "12,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "499,697"
+                    },
+                    "to": {
+                        "startLines": "38,45",
+                        "startColumns": "4,4",
+                        "startOffsets": "1839,2148",
+                        "endLines": "44,47",
+                        "endColumns": "12,12",
+                        "endOffsets": "2143,2303"
+                    }
+                },
+                {
+                    "source": "E:\\project\\EEditor\\app\\src\\main\\res\\values\\dimens.xml",
+                    "from": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "92,151",
+                        "endColumns": "57,55",
+                        "endOffsets": "145,202"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,113",
+                        "endColumns": "57,55",
+                        "endOffsets": "108,164"
+                    }
+                },
+                {
+                    "source": "E:\\project\\EEditor\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "3,31,34,20,16,30,40,35,29,28,4,33,38,12,11,13,14,15,36,32,6,7,19,37,8,9,41,39,22,23,26,25,24,17",
+                        "startColumns": "4,1,1,4,4,1,1,1,1,1,4,1,1,4,4,4,4,4,1,1,4,4,4,1,4,4,1,1,4,4,1,1,1,4",
+                        "startOffsets": "58,1148,1322,740,591,1105,1604,1369,1065,1025,100,1270,1514,415,366,465,505,546,1417,1208,159,214,695,1466,264,312,1648,1562,791,843,980,939,897,639",
+                        "endColumns": "40,59,46,45,47,42,43,47,39,39,52,51,47,49,48,39,40,44,48,61,54,49,44,47,47,50,47,41,51,56,42,40,41,50",
+                        "endOffsets": "94,1206,1367,781,634,1146,1646,1415,1103,1063,148,1320,1560,460,410,500,541,586,1464,1268,209,259,735,1512,307,358,1694,1602,838,895,1021,978,937,685"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "169,210,273,323,369,417,463,510,561,604,647,700,755,806,856,905,945,986,1031,1083,1148,1203,1253,1298,1349,1397,1448,1499,1544,1596,1653,1699,1743,1788",
+                        "endColumns": "40,62,49,45,47,45,46,50,42,42,52,54,50,49,48,39,40,44,51,64,54,49,44,50,47,50,50,44,51,56,45,43,44,50",
+                        "endOffsets": "205,268,318,364,412,458,505,556,599,642,695,750,801,851,900,940,981,1026,1078,1143,1198,1248,1293,1344,1392,1443,1494,1539,1591,1648,1694,1738,1783,1834"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "E:\\project\\EEditor2\\app\\build\\intermediates\\res\\merged\\debug\\values-v14_values-v14.arsc.flat",
+            "map": [
+                {
+                    "source": "E:\\project\\EEditor2\\app\\src\\main\\res\\values-v14\\styles.xml",
+                    "from": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "225",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "372"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "200"
+                    }
+                }
+            ]
+        }
+    ]
+}

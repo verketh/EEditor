@@ -1,0 +1,145 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\project\EEditor\app\src\main\AndroidManifest.xml:2:1-61:12
+INJECTED from E:\project\EEditor\app\src\main\AndroidManifest.xml:2:1-61:12
+INJECTED from E:\project\EEditor\app\src\main\AndroidManifest.xml:2:1-61:12
+INJECTED from E:\project\EEditor\app\src\main\AndroidManifest.xml:2:1-61:12
+INJECTED from E:\project\EEditor\app\src\main\AndroidManifest.xml:2:1-61:12
+INJECTED from E:\project\EEditor\app\src\main\AndroidManifest.xml:2:1-61:12
+INJECTED from E:\project\EEditor\app\src\main\AndroidManifest.xml:2:1-61:12
+	package
+		ADDED from E:\project\EEditor\app\src\main\AndroidManifest.xml:3:5-33
+		INJECTED from E:\project\EEditor\app\src\main\AndroidManifest.xml
+		INJECTED from E:\project\EEditor\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from E:\project\EEditor\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from E:\project\EEditor\app\src\main\AndroidManifest.xml
+		INJECTED from E:\project\EEditor\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\project\EEditor\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from E:\project\EEditor\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from E:\project\EEditor\app\src\main\AndroidManifest.xml
+		INJECTED from E:\project\EEditor\app\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from E:\project\EEditor\app\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from E:\project\EEditor\app\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from E:\project\EEditor\app\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from E:\project\EEditor\app\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from E:\project\EEditor\app\src\main\AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from E:\project\EEditor\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from E:\project\EEditor\app\src\main\AndroidManifest.xml
+		INJECTED from E:\project\EEditor\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from E:\project\EEditor\app\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from E:\project\EEditor\app\src\main\AndroidManifest.xml
+		INJECTED from E:\project\EEditor\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from E:\project\EEditor\app\src\main\AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from E:\project\EEditor\app\src\main\AndroidManifest.xml:10:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\project\EEditor\app\src\main\AndroidManifest.xml:11:5-80
+	android:name
+		ADDED from E:\project\EEditor\app\src\main\AndroidManifest.xml:11:22-78
+uses-permission#android.permission.VIBRATE
+ADDED from E:\project\EEditor\app\src\main\AndroidManifest.xml:12:5-65
+	android:name
+		ADDED from E:\project\EEditor\app\src\main\AndroidManifest.xml:12:22-63
+uses-permission#android.permission.INTERNET
+ADDED from E:\project\EEditor\app\src\main\AndroidManifest.xml:13:5-66
+	android:name
+		ADDED from E:\project\EEditor\app\src\main\AndroidManifest.xml:13:22-64
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from E:\project\EEditor\app\src\main\AndroidManifest.xml:15:5-75
+	android:name
+		ADDED from E:\project\EEditor\app\src\main\AndroidManifest.xml:15:22-72
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\project\EEditor\app\src\main\AndroidManifest.xml:16:2-76
+	android:name
+		ADDED from E:\project\EEditor\app\src\main\AndroidManifest.xml:16:19-73
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from E:\project\EEditor\app\src\main\AndroidManifest.xml:17:2-73
+	android:name
+		ADDED from E:\project\EEditor\app\src\main\AndroidManifest.xml:17:19-70
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from E:\project\EEditor\app\src\main\AndroidManifest.xml:18:2-75
+	android:name
+		ADDED from E:\project\EEditor\app\src\main\AndroidManifest.xml:18:19-72
+application
+ADDED from E:\project\EEditor\app\src\main\AndroidManifest.xml:20:5-59:19
+	android:label
+		ADDED from E:\project\EEditor\app\src\main\AndroidManifest.xml:23:9-41
+	android:icon
+		ADDED from E:\project\EEditor\app\src\main\AndroidManifest.xml:22:9-45
+	android:allowBackup
+		ADDED from E:\project\EEditor\app\src\main\AndroidManifest.xml:21:9-35
+	android:theme
+		ADDED from E:\project\EEditor\app\src\main\AndroidManifest.xml:24:9-40
+activity#cn.viewphoto.eedit.MainActivity
+ADDED from E:\project\EEditor\app\src\main\AndroidManifest.xml:25:9-33:20
+	android:label
+		ADDED from E:\project\EEditor\app\src\main\AndroidManifest.xml:27:13-45
+	android:name
+		ADDED from E:\project\EEditor\app\src\main\AndroidManifest.xml:26:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\project\EEditor\app\src\main\AndroidManifest.xml:28:13-32:29
+action#android.intent.action.MAIN
+ADDED from E:\project\EEditor\app\src\main\AndroidManifest.xml:29:17-69
+	android:name
+		ADDED from E:\project\EEditor\app\src\main\AndroidManifest.xml:29:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\project\EEditor\app\src\main\AndroidManifest.xml:31:17-77
+	android:name
+		ADDED from E:\project\EEditor\app\src\main\AndroidManifest.xml:31:27-74
+activity#cn.viewphoto.eedit.ConfigActivity
+ADDED from E:\project\EEditor\app\src\main\AndroidManifest.xml:34:9-61
+	android:name
+		ADDED from E:\project\EEditor\app\src\main\AndroidManifest.xml:34:19-49
+activity#cn.viewphoto.eedit.ConfigColorActivity
+ADDED from E:\project\EEditor\app\src\main\AndroidManifest.xml:35:9-66
+	android:name
+		ADDED from E:\project\EEditor\app\src\main\AndroidManifest.xml:35:19-54
+receiver#cn.viewphoto.eedit.util.UpdateUtil$DownLoadCompleteReceiver
+ADDED from E:\project\EEditor\app\src\main\AndroidManifest.xml:36:9-40:20
+	android:name
+		ADDED from E:\project\EEditor\app\src\main\AndroidManifest.xml:36:19-93
+intent-filter#android.intent.action.DOWNLOAD_COMPLETE
+ADDED from E:\project\EEditor\app\src\main\AndroidManifest.xml:37:13-39:29
+action#android.intent.action.DOWNLOAD_COMPLETE
+ADDED from E:\project\EEditor\app\src\main\AndroidManifest.xml:38:17-81
+	android:name
+		ADDED from E:\project\EEditor\app\src\main\AndroidManifest.xml:38:25-79
+activity#net.youmi.android.AdBrowser
+ADDED from E:\project\EEditor\app\src\main\AndroidManifest.xml:42:3-46:15
+	android:configChanges
+		ADDED from E:\project\EEditor\app\src\main\AndroidManifest.xml:44:4-74
+	android:theme
+		ADDED from E:\project\EEditor\app\src\main\AndroidManifest.xml:45:4-51
+	android:name
+		ADDED from E:\project\EEditor\app\src\main\AndroidManifest.xml:43:4-46
+service#net.youmi.android.AdService
+ADDED from E:\project\EEditor\app\src\main\AndroidManifest.xml:47:3-50:14
+	android:exported
+		ADDED from E:\project\EEditor\app\src\main\AndroidManifest.xml:49:4-28
+	android:name
+		ADDED from E:\project\EEditor\app\src\main\AndroidManifest.xml:48:4-46
+receiver#net.youmi.android.AdReceiver
+ADDED from E:\project\EEditor\app\src\main\AndroidManifest.xml:51:3-58:15
+	android:name
+		ADDED from E:\project\EEditor\app\src\main\AndroidManifest.xml:51:13-56
+intent-filter#android.intent.action.PACKAGE_ADDED+android.intent.action.PACKAGE_INSTALL
+ADDED from E:\project\EEditor\app\src\main\AndroidManifest.xml:52:4-57:21
+action#android.intent.action.PACKAGE_ADDED
+ADDED from E:\project\EEditor\app\src\main\AndroidManifest.xml:53:5-66
+	android:name
+		ADDED from E:\project\EEditor\app\src\main\AndroidManifest.xml:53:13-63
+action#android.intent.action.PACKAGE_INSTALL
+ADDED from E:\project\EEditor\app\src\main\AndroidManifest.xml:54:5-68
+	android:name
+		ADDED from E:\project\EEditor\app\src\main\AndroidManifest.xml:54:13-65
+data
+ADDED from E:\project\EEditor\app\src\main\AndroidManifest.xml:56:5-38
+	android:scheme
+		ADDED from E:\project\EEditor\app\src\main\AndroidManifest.xml:56:11-35
