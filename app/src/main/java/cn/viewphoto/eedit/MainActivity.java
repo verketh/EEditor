@@ -40,10 +40,6 @@ import cn.viewphoto.eedit.editor.SymbolList;
 import cn.viewphoto.eedit.util.UpdateUtil;
 import cn.viewphoto.eedit.view.EEditText;
 import cn.viewphoto.eedit.view.SlideMenu;
-import net.youmi.android.AdManager;
-import net.youmi.android.spot.CustomerSpotView;
-import net.youmi.android.spot.SpotDialogListener;
-import net.youmi.android.spot.SpotManager;
 
 public class MainActivity extends Activity implements View.OnClickListener,ListView.OnItemClickListener{
 	public static final String TAG = "MainActivity";
@@ -54,8 +50,6 @@ public class MainActivity extends Activity implements View.OnClickListener,ListV
 	private TextView	mTitleTv;
 	private File		mFile;
 	private ListView	mFileListView;
-	private CustomerSpotView mCustomerSpotView;
-	private RelativeLayout mNativeAdLayout;
 	//private Handler	mHandler;
 	//private int 	mTime;
 	@Override
@@ -79,80 +73,8 @@ public class MainActivity extends Activity implements View.OnClickListener,ListV
 		UpdateUtil.checkUpdate(this, false);//检查更新
 		ScrollView scrollView = (ScrollView) findViewById(R.id.main_scroll_symbo);
 		new SymbolList(this, mEEditText, scrollView);//显示符号列表
-		initAd();
 		//////////////////////////////
 		//HintSQLiteOpenHelper.getInstance(this).getReadableDatabase();
-	}
-	private void initAd(){
-		/*mTime = 5;//
-		mHandler = new Handler(){
-			@Override
-			public void handleMessage(Message msg) {
-				if(msg.what==11){
-					mTime--;
-					if(mTime<=0){
-						mEEditText.setVisibility(View.VISIBLE);
-						mNativeAdLayout.setVisibility(View.GONE);
-					}else{
-						mHandler.sendEmptyMessageDelayed(11, 1000);
-					}
-				}
-			}
-		};*/
-		AdManager.getInstance(this).init("1c1621b228f9d1a5", "a995de1d25b56ff1",false);
-		mNativeAdLayout = (RelativeLayout) findViewById(R.id.main_ad);
-		mNativeAdLayout.setVisibility(View.VISIBLE);
-		new Thread(new Runnable() {
-			@Override
-			public void run() {
-				//子线程获取原生控件
-				mCustomerSpotView = SpotManager.getInstance(MainActivity.this)
-						.cacheCustomerSpot(MainActivity.this, new SpotDialogListener() {
-							@Override
-							public void onShowSuccess() {
-								//mHandler.sendEmptyMessageDelayed(11, 1000);
-								//Log.i(TAG, "原生插屏展示成功");
-							}
-
-							@Override
-							public void onShowFailed() {
-								mEEditText.setVisibility(View.VISIBLE);
-								mNativeAdLayout.setVisibility(View.GONE);
-								//Log.i(TAG, "原生插屏展示失败");
-							}
-
-							@Override
-							public void onSpotClosed() {
-								//Log.i(TAG, "原生插屏被关闭");
-							}
-
-							@Override
-							public void onSpotClick(boolean isWebPath) {
-//								//Log.i(TAG, "原生插屏被点击，isWebPath = " + isWebPath);
-							}
-						});
-				//获取成功
-				if (mCustomerSpotView != null) {
-					showAd();
-				} 
-			}
-		}).start();
-	}
-	private void showAd(){
-		//切换到UI线程
-				runOnUiThread(new Runnable() {
-					@Override
-					public void run() {
-						RelativeLayout.LayoutParams params =
-								new RelativeLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,
-										ViewGroup.LayoutParams.MATCH_PARENT);
-						params.addRule(RelativeLayout.CENTER_IN_PARENT, RelativeLayout.TRUE);
-						if (mNativeAdLayout != null) {
-							mNativeAdLayout.removeAllViews();
-							mNativeAdLayout.addView(mCustomerSpotView, params);
-						}
-					}
-				});
 	}
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
@@ -307,9 +229,7 @@ public class MainActivity extends Activity implements View.OnClickListener,ListV
 				editor.append("\n");
 			}
 			//mEEditText.setEditor(editor);
-			//将广告关闭
 			mEEditText.setVisibility(View.VISIBLE);
-			mNativeAdLayout.setVisibility(View.GONE);
 			//
 			mEEditText.getTable().setEditor(editor);
 			mSlideMenu.closeMenu();

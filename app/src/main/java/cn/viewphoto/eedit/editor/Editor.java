@@ -67,8 +67,8 @@ public class Editor {
 	}
 	/**
 	 * 插入字符
-	 * @param lineIndex插入的行索引
-	 * @param chIndexOfLine插入行的起始插入位置
+	 * @param lineIndex 插入的行索引
+	 * @param chIndexOfLine 插入行的起始插入位置
 	 * @param ch
 	 * @throws StringIndexOutOfBoundsException
 	 */
@@ -77,8 +77,8 @@ public class Editor {
 	}
 	/**
 	 * 插入字符串
-	 * @param lineIndex插入的行索引
-	 * @param strIndexOfLine插入行的起始插入位置
+	 * @param lineIndex 插入的行索引
+	 * @param strIndexOfLine 插入行的起始插入位置
 	 * @param str
 	 * @throws StringIndexOutOfBoundsException
 	 */
@@ -93,9 +93,9 @@ public class Editor {
 	}
 	/**
 	 * 删除指定位置的字符串
-	 * @param lineIndex行索引
-	 * @param strIndexOfLine行起始删除位置
-	 * @param lenght删除的长度，如大于起始位置到行末的lenght,则只删除到行末
+	 * @param lineIndex 行索引
+	 * @param strIndexOfLine 行起始删除位置
+	 * @param lenght 删除的长度，如大于起始位置到行末的lenght,则只删除到行末
 	 * @throws StringIndexOutOfBoundsException
 	 */
 	public void delete(int lineIndex,int strIndexOfLine,int lenght) throws StringIndexOutOfBoundsException{
@@ -110,7 +110,7 @@ public class Editor {
 	}
 	/**
 	 * 修改行信息
-	 * @param startIndex起始修改的索引
+	 * @param startIndex 起始修改的索引
 	 */
 	private void modifiLineInfo(int startIndex){
 		int lineIndex = 0;

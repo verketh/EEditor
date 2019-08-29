@@ -23,5 +23,4 @@ dependencies {
     compile files('libs/android-async-http-1.4.8.jar')
     compile files('libs/jackson-all-1.9.0.jar')
     compile files('libs/pinyin4j-2.5.0.jar')
-    compile files('libs/YoumiSdk_v6.1.0_2016-02-26.jar')
 }
